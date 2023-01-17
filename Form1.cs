@@ -20,6 +20,7 @@ namespace HavaDurumuApisi
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            label1.Text = "İstanbul,TR";
             lblTarih.Text = DateTime.Now.ToShortDateString();
             string api = "3cfb88a0a3c2dcf2b3be5b1177e86b44";
             string connection = "https://api.openweathermap.org/data/2.5/weather?q=Konya&mode=xml&lang=tr&units=metric&appid=" +api;
